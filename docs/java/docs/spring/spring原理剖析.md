@@ -12,4 +12,4 @@
 >
 > Environment，
 
-<img src="/vuepress/images/note/java/流程图.png"/>
+<img src="/vuepress/images/java/spring/流程图.png"/>
