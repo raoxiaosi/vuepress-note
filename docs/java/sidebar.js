@@ -5,6 +5,7 @@ module.exports = [
 	  children:[
 		'/java/docs/并发编程/并发编程基础',
 		'/java/docs/并发编程/ThreadLocal',
+		'/java/docs/并发编程/并发工具类',
 	  ]
 	},
 	{
