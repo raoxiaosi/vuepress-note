@@ -7,6 +7,7 @@ module.exports = [
 		'/java/docs/并发编程/ThreadLocal',
 		'/java/docs/并发编程/并发工具类[一]',
 		'/java/docs/并发编程/并发工具类[二]',
+		'/java/docs/并发编程/原子操作CAS',
 	  ]
 	},
 	{
