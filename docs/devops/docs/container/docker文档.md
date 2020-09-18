@@ -161,7 +161,7 @@ docker build -t 镜像名称[:tag] .
 >
 > <http://mirror.azure.cn/docker-toolbox/linux/compose/1.24.1/>
 
-> 上传至linux中，并修改文件的可执行权限
+> 上传至linux中 /usr/local/bin，并修改文件的可执行权限
 
 ##### docker-compose.yml文件
 
