@@ -8,8 +8,10 @@ module.exports = {
         ['link', {rel: 'icon', href: '/logo.png'}],
         ['link', {rel: 'stylesheet', href: '/layui/css/layui.css'}],
         ['link', {rel: 'stylesheet', href: '/css/common.css'}],
+		['script', {charset: "utf-8", src: "/js/jquery-3.2.1.min.js" }],
         ['script', {charset: "utf-8", src: "/layui/layui.js" }],
         ['script', {charset: "utf-8", src: "/layui/layui.all.js" }],
+		['script', {charset: "utf-8", src: "/js/common.js" }],		
     ],
     markdown: {
         lineNumbers: true

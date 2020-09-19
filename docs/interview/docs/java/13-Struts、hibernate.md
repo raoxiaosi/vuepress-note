@@ -1,4 +1,6 @@
-# Struts
+# 13-Struts、hibernate
+
+## Struts
 
 ### 1.谈谈struts
 
@@ -17,7 +19,7 @@
 
 ​		
 
-# Hibernate
+## Hibernate
 
 ### 1.谈谈Hibernate
 
