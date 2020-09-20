@@ -65,7 +65,7 @@
 > ThreadLocalMap->remove()
 > ~~~
 >
-> <img src="/vuepress/images/java/thread/ThreadLocal-entry.png"/>
+> <img src="/images/java/thread/ThreadLocal-entry.png"/>
 >
 > ThreadLocal 不能保证线程安全问题
 >

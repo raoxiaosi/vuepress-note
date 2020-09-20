@@ -1,16 +1,28 @@
 
-$(function () {
+var base_dir = '/vuepress';
 
+$(function () {
     $("body").on("click", "a", function (e) {
         var href = $(this).attr("href");
-        console.log("href:" + href);
-        $(this).attr("href", "/hss" + href);
+        console.log("a -> href:" + href);
+        if(!has_base_dir(href)){
+            $(this).attr("href", base_dir + href);
+        }
     });
-
-    $("body").on("click", "img", function (e) {
-        console.log("发放:" + $(this).attr("src"))
-        // $(this).attr("src", "/ddd" + $(this).attr("src"))
-    });
-
 })
+
+
+window.addEventListener('load',function(){
+      $("img").each(function () {
+          var src = $(this).attr("src");
+          console.log("img -> src:" + src);
+          if(!has_base_dir(src)){
+              $(this).attr("src", base_dir + src);
+          }
+      });
+});
+
+function has_base_dir(url) {
+    return url.indexOf(base_dir) >= 0;
+}
 
