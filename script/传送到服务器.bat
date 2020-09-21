@@ -1,5 +1,15 @@
-锘縟el apidoc\utils\send_sample_request.js
+@echo off
 
-ren dist vuepress
+if exist dist (
+	ren dist vuepress
+) else (
+	if not exist vuepress (		
+		echo -------------------------- 上传失败 --------------------------
+		echo 请先执行打包程序，生成静态文件 --- 双击 打包.bat
+		pause
+		exit
+	)
+)
+
 
 .\WinSCP\WinSCP.com /script=sendFile.bat
