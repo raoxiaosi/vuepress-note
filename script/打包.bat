@@ -1,0 +1,3 @@
+vuepress build ../docs
+
+pause

@@ -1,0 +1,1 @@
+ren dist vuepress
