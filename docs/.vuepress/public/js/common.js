@@ -7,6 +7,8 @@ $(function () {
         if(!has_base_dir(href)){
             $(this).attr("href", base_dir + href);
         }
+        window.location.href=$(this).attr("href")
+        return
     });
 })
 
