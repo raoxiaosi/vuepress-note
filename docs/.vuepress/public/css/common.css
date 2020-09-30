@@ -1,4 +1,5 @@
 
+/* 内容视图 */
 .content-view{
 	background-color: #f2f2f2;
 	padding: 20px 10px;
@@ -6,17 +7,24 @@
 	border-radius: 10px;
 	box-shadow: 2px 1px 5px gray;
 }
+/* 内容视图 */
 
 h2{
-	color: #4092ba;
+	color: #ef3d15;
 	font-size: 31px;
 }
-
 h3{
-	color: #bbae6c;
+	color: #ffa12d;
 }
-
+h4{
+	color: #879a1b;
+	font-size: 1.25rem;
+}
 h5{
+	color: #25b17d;
+	font-size: 1.15rem;
+}
+h6{
 	color: #4ba6b5;
 }
 
@@ -32,21 +40,22 @@ h5{
     max-width: 95% !important;
 }
 
+/*标记醒目*/
 .todo-view {
 	background-color: #f7d5d5;
 	padding: 20px 10px;
 	margin: 10px 0px;
 	color: #e6363b;
-
 }
-
 .todo-view-title {
 	margin-bottom: 10px;
 	font-size: 16px;
 	color: red;
 	font-weight: bold;
 }
+/*标记醒目*/
 
+/* 图标样式 */
 .layui-icon-ok{
 	color: #3cd7e6;
 	border: solid #3cd7e6 1px;
@@ -54,7 +63,6 @@ h5{
 	margin-right: 5px;
 	padding: 1px;
 }
-
 .layui-icon-help{
 	color: red;
 	border: solid red 1px;
@@ -62,10 +70,13 @@ h5{
 	margin-right: 5px;
 	padding: 1px;
 }
+/* 图标样式 */
 
+/* 分页标签 */
 .page-break{
 	margin-bottom: calc(100vh);
 }
+/* 分页标签 */
 
 .await{
 	color: #00b8ff;
@@ -91,4 +102,17 @@ blockquote > p{
 
 .page img{
 	margin: 10px 0px 40px 0px;
+}
+
+.page .calalog{
+	margin-bottom: 30px;
+	font-size: 14px
+;}
+.page .calalog a{
+	color: #40afde;
+	margin-bottom: 10px;
+}
+.page .calalog a:hover{
+	text-decoration: none !important;
+	color: #077aab;
 }

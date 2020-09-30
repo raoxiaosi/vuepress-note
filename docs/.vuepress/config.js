@@ -11,7 +11,8 @@ module.exports = {
 		['script', {charset: "utf-8", src: "/js/jquery-3.2.1.min.js" }],
         ['script', {charset: "utf-8", src: "/layui/layui.js" }],
         ['script', {charset: "utf-8", src: "/layui/layui.all.js" }],
-		['script', {charset: "utf-8", src: "/js/common.js" }],		
+		['script', {charset: "utf-8", src: "/js/common.js" }],
+        ['script', {charset: "utf-8", src: "/js/catalog.js" }],
     ],
     markdown: {
         lineNumbers: true
@@ -19,9 +20,9 @@ module.exports = {
     themeConfig: {
         nav: require('./nav.js'),
         sidebar: require('./sidebar.js'),
-        sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
-        searchMaxSuggestoins: 10,
+        sidebarDepth: 0,
+        lastUpdated: '最后修改时间',
+        searchMaxSuggestoins: 50,
         serviceWorker: {
             updatePopup: {
                 message: "有新的内容.",

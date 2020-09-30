@@ -8,7 +8,9 @@ module.exports = [
 		'/java/docs/并发编程/并发工具类[一]',
 		'/java/docs/并发编程/并发工具类[二]',
 		'/java/docs/并发编程/原子操作CAS',
-		'/java/docs/并发编程/显式锁和AQS[一]',
+		'/java/docs/并发编程/显式锁和AQS',
+		'/java/docs/并发编程/并发容器',
+		'/java/docs/并发编程/线程池',
 	  ]
 	},
 	{
