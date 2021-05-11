@@ -18,6 +18,8 @@ module.exports = [
 	  collapsable: true,
 	  children:[
 	  	'/java/docs/spring/spring原理剖析',
+	  	'/java/docs/spring/spring Bean',
+	  	'/java/docs/spring/spring Aop',
 	  ]
 	}
 ]
